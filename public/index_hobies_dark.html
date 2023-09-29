@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-100">
+    <header class="z-10 sticky bg-gray-950 py-5"> <!-- Header -->
+        <nav class="w-9/12 flex flex-row mx-auto">
+            <div class="uppercase text-lg basis-1/4"> <!-- Logo -->
+                <a href="">
+                    <span class="font-extrabold text-gray-100">Alpina</span>
+                    <span class="font-light text-yellow-500">Dendra</span>
+                </a>
+            </div>
+            <div class="basis-1/2 flex items-center justify-evenly"> <!-- Link -->
+                <a href="index_dark.html" onclick="AnimationEffect"><span>Home</span></a>
+                <a href=""><span>Organization</span></a>
+                <a href=""><span>Univesity</span></a>
+                <a href=""><span>Project</span></a>
+            </div>
+            <div class="basis-1/4 flex justify-end"> <!-- Dark Mode -->
+                <!-- Tombol Dark Mode-->
+                <a href="index_hobies.html" onclick="AnimationEffect">
+					<span class="hidden dark:inline end:0"
+					><svg viewBox="0 0 24 24" fill="none" class="w-6 h-6">
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M17.715 15.15A6.5 6.5 0 0 1 9 6.035C6.106 6.922 4 9.645 4 12.867c0 3.94 3.153 7.136 7.042 7.136 3.101 0 5.734-2.032 6.673-4.853Z"
+							class="fill-yellow-400/20"
+						></path>
+						<path
+							d="m17.715 15.15.95.316a1 1 0 0 0-1.445-1.185l.495.869ZM9 6.035l.846.534a1 1 0 0 0-1.14-1.49L9 6.035Zm8.221 8.246a5.47 5.47 0 0 1-2.72.718v2a7.47 7.47 0 0 0 3.71-.98l-.99-1.738Zm-2.72.718A5.5 5.5 0 0 1 9 9.5H7a7.5 7.5 0 0 0 7.5 7.5v-2ZM9 9.5c0-1.079.31-2.082.845-2.93L8.153 5.5A7.47 7.47 0 0 0 7 9.5h2Zm-4 3.368C5 10.089 6.815 7.75 9.292 6.99L8.706 5.08C5.397 6.094 3 9.201 3 12.867h2Zm6.042 6.136C7.718 19.003 5 16.268 5 12.867H3c0 4.48 3.588 8.136 8.042 8.136v-2Zm5.725-4.17c-.81 2.433-3.074 4.17-5.725 4.17v2c3.552 0 6.553-2.327 7.622-5.537l-1.897-.632Z"
+							class="fill-yellow-500"
+						></path>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M17 3a1 1 0 0 1 1 1 2 2 0 0 0 2 2 1 1 0 1 1 0 2 2 2 0 0 0-2 2 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 1 1 0-2 2 2 0 0 0 2-2 1 1 0 0 1 1-1Z"
+							class="fill-yellow-500"
+						></path></svg></span>
+				</a>	
+            </div>
+        </nav>
+    </header>
+    
+    <main id="hero_s_dark" class="relative -top-20"> <!-- Main Content -->
+        <div class="bg-teal-950 "> <!-- Hero Section-->
+			<div class="mx-auto flex h-screen items-center w-9/12 ">
+				<div class="basis-1/2"> <!-- deskripsi -->
+					<div class="flex items-center">
+                        <h2 class="uppercase font-bold text-4xl text-white">
+							<span>I love doing</span>
+						    <span class="text-yellow-500">Sports</span>
+						</h2>
+                    </div>
+                    <p class="font-light text-lg text-gray-200 mt-3">
+                            Stay healty and energetic.
+                    </p>
+                </div>
+                <div class="basis-1/2">
+					<img class="mx-auto mt-16 px-10 rounded-lg" src="img/punsal.jpg" alt="foto punsa dark">
+				</div>
+            </div>
+        </div>
+        
+        <div id="H_sport_dark" class="bg-gray-950 py-40"> <!-- Sport Hobbies -->
+			<div class="w-9/12 mx-auto">
+				<div class="flex flex-col"> <!-- judul -->
+						<div class="flex items-center justify-center">
+							<h2 class="uppercase text-xs font-extralight tracking-split">
+								what the most i do
+							</h2>
+						</div>
+						<h3 class="mt-4 text-3xl text-white text-center">Hobies</h3>
+				</div>
+
+				<div class="grid grid-cols-4 gap-20 mt-20"> <!-- cards -->
+					<div class="rounded-lg shadow-lg overflow-hidden">
+						<img 
+							class="object-cover w-full h-48 opacity-100"
+							src="img/running.jpg" alt="">
+						<div class="py-2 px-4" style="background-color: gold;">
+							<h4 class="text-sm font-medium text-gray-800">Running</h4>
+							<h5 class="text-sm font-mono text-gray-800">Endurance</h5>
+						</div>
+					</div>
+						
+					<div class="rounded-lg shadow-lg overflow-hidden">
+						<img 
+							class="object-cover w-full h-48 opacity-100"
+							src="img/swimming.jpg" alt="">
+						<div class="py-2 px-4" style="background-color: gold;">
+							<h4 class="text-sm font-medium text-gray-800">Swimming</h4>
+							<h5 class="text-sm font-mono text-gray-800">Breathing</h5>
+						</div>
+					</div>
+
+					<div class="rounded-lg shadow-lg overflow-hidden">
+						<img 
+							class="object-cover w-full h-48 opacity-100"
+							src="img/gym.jpg" alt="">
+						<div class="py-2 px-4" style="background-color: gold;">
+							<h4 class="text-sm font-medium text-gray-800">Gym</h4>
+							<h5 class="text-sm font-mono text-gray-800">Strength</h5>
+						</div>
+					</div>
+
+					<div class="rounded-lg shadow-lg overflow-hidden">
+						<img 
+							class="object-cover w-full h-48 opacity-100"
+							src="img/football.jpg" alt="">
+						<div class="py-2 px-4" style="background-color: gold;">
+							<h4 class="text-sm font-medium text-gray-800">Football</h4>
+							<h5 class="text-sm font-mono text-gray-800">Stability</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+
+    <footer class="bg-teal-950 text-yellow-500 text-center pt-10 pb-10 font-mono -mt-20"> <!-- footer -->
+		Gede Alpina Dendra 2215101066
+	</footer>
+</body>
+</html>
